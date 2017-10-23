@@ -63,6 +63,7 @@ export class SidebarTableColumnProvider implements TreeDataProvider<SidebarTable
               });
               this.tree[this.tableIndex[column.tableName]].columns.push(col);
             });
+            this.refresh();
           });
       });
   }

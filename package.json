@@ -284,7 +284,8 @@
                                 "type": "string",
                                 "enum": [
                                     "MSSQL",
-                                    "MySQL"
+                                    "MySQL",
+                                    "Oracle"
                                 ],
                                 "description": "Path for you password file",
                                 "required": false
@@ -330,11 +331,13 @@
         "ts-jest": "^20.0.6",
         "tslint": "^5.4.3",
         "typescript": "^2.3.2",
-        "vscode": "^1.0.0"
+        "vscode": "^1.1.5"
     },
     "dependencies": {
+        "knex": "^0.13.0",
         "mssql": "^4.0.4",
         "mysql": "^2.13.0",
+        "oracledb": "^1.13.1",
         "request": "^2.81.0",
         "sql-formatter": "^1.2.2"
     }
